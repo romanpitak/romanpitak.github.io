@@ -12,7 +12,7 @@ relative_permalinks: true
 title:               $
 tagline:             'code --help'
 description:         'A blog of code and the human nature.'
-url:                 http://romanpitak.github.io
+url:                 http://blog.pitak.net
 baseurl:             /
 paginate:            5
 
