@@ -13,7 +13,7 @@ title:               $
 tagline:             'code --help'
 description:         'A blog of code and the human nature.'
 url:                 http://blog.pitak.net
-baseurl:             /
+baseurl:             ''
 paginate:            5
 
 # About/contact
