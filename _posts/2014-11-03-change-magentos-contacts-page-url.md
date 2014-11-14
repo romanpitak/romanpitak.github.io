@@ -5,6 +5,9 @@ author: "Roman Piták"
 last-revision: 2014-11-03 15:17
 categories: code
 tags: magento
+perex: |
+    In my Magento development workflow I strive to avoid any non-code changes and settings when creating the e-shop (and yes - it is possible). 
+    That' why I wrote an alternative to creating an unnecessary redirect for customizing the contact page url 
 ---
 
 Magento does not provide a proper built in way to change the url of the default

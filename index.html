@@ -14,7 +14,8 @@ title: Home
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.perex }}<a href="{{ post.url }}">&hellip;read more</a>
+
   </div>
   {% endfor %}
 </div>
