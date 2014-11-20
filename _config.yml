@@ -8,8 +8,6 @@ highlighter:         pygments
 permalink:           pretty
 relative_permalinks: true
 
-source: ./src
-
 # Setup
 title:               $
 tagline:             'code --help'
