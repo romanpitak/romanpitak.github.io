@@ -1,5 +1,6 @@
 ---
 layout: post
+redirect_from: "/code/2014/11/03/change-magentos-contacts-page-url/"
 title:  "Change Magento's contacts page url"
 author: "Roman Piták"
 last-revision: 2014-11-03 15:17

@@ -1,5 +1,6 @@
 ---
 layout: post
+redirect_from: "/code/2014/10/31/setting-up-p4merge/"
 title:  "P4Merge as a git mergetool and difftool on Linux"
 author: "Roman Piták"
 last-revision: 2014-10-31 19:28:27

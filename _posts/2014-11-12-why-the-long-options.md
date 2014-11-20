@@ -1,8 +1,8 @@
 ---
 layout: post
+redirect_from: "/code/2014/11/12/why-the-long-options/"
 title:  "Why the long options?"
 author: "Roman Piták"
-published: 2014-11-12 21:34
 last-revision: 2014-11-12 21:34
 tags: code linux
 perex: |
