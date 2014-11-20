@@ -4,8 +4,7 @@ title:  "Why the long options?"
 author: "Roman Piták"
 published: 2014-11-12 21:34
 last-revision: 2014-11-12 21:34
-categories: code
-tags: linux
+tags: code linux
 perex: |
     Nobody really needs a short answer when looking to understand something.
     When I'm writing a script (or a blog post), chances are somebody is going to (have to) look at it at some point.
