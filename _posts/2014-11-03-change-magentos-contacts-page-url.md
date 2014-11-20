@@ -3,7 +3,7 @@ layout: post
 redirect_from: "/code/2014/11/03/change-magentos-contacts-page-url/"
 title:  "Change Magento's contacts page url"
 author: "Roman Piták"
-last-revision: 2014-11-03 15:17
+last_modified_at: 2014-11-03 15:17
 tags: code magento
 perex: |
     In my Magento development workflow I strive to avoid any non-code changes and settings when creating the e-shop (and yes - it is possible). 

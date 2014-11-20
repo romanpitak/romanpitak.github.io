@@ -3,7 +3,7 @@ layout: post
 redirect_from: "/code/2014/10/31/setting-up-p4merge/"
 title:  "P4Merge as a git mergetool and difftool on Linux"
 author: "Roman Piták"
-last-revision: 2014-10-31 19:28:27
+last_modified_at: 2014-11-20 18:38
 tags: code
 perex: |
     Sadly, there's no Sourcetree for Linux. Console it is. Not for merging though. P4Merge 

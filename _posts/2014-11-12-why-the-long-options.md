@@ -3,7 +3,7 @@ layout: post
 redirect_from: "/code/2014/11/12/why-the-long-options/"
 title:  "Why the long options?"
 author: "Roman Piták"
-last-revision: 2014-11-12 21:34
+last_modified_at: 2014-11-20 18:40
 tags: code linux
 perex: |
     Nobody really needs a short answer when looking to understand something.
