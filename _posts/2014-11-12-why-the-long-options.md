@@ -79,7 +79,7 @@ $ alias ls="ls \
 --human-readable"
 {% endhighlight %}
 
-In the above example, the switches `--color` and `--romanpitak.github.iotime-style` are only available in the long form because they are intended to be used in scripts.   
+In the above example, the switches `--color` and `--time-style` are only available in the long form because they are intended to be used in scripts.   
 
 ## Maintain laziness
 
