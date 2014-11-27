@@ -1,5 +1,6 @@
 ---
 layout: post
+redirect_from: "/2014/11/14/canon-printer-department-id-job-accounting/"
 title:  "How to set up Canon iR-ADV C7260 department&nbsp;ID for job accounting on Mint&nbsp;17"
 author: "Roman Piták"
 last_modified_at: 2014-11-20 19:12
