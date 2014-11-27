@@ -1,0 +1,38 @@
+pre.pitak {
+    font-family: Console, Monospaced, monospace;
+    background-color: #2B2B2B;
+    color: #EEEEEC;
+}
+
+pre.pitak code .keyword {
+    color: #CC7833;
+}
+
+pre.pitak code .string {
+    color: #6A8759;
+}
+
+pre.pitak code .comment {
+    color: #8AE234;
+}
+
+pre.pitak code .function {
+    color: #FFC66D;
+}
+
+pre.pitak code .path {
+    color: #739FCF;
+}
+
+pre.pitak code .warning {
+    color: #EF2929;
+}
+
+pre.pitak code .root-host {
+    color: #CC0000;
+}
+
+pre.pitak code .user-host {
+    color: #8AE234;
+}
+
