@@ -3,7 +3,7 @@ layout: post
 redirect_from: "/code/2014/11/12/why-the-long-options/"
 title:  "Why the long options?"
 author: "Roman Piták"
-last_modified_at: 2014-11-20 18:40
+last_modified_at: 2014-11-29 19:28
 tags: code linux
 perex: |
     Nobody really needs a short answer when looking to understand something.
@@ -42,7 +42,12 @@ It has no direct connection to long options and --in-all-honesty -
 I don't remember the long options of `tar` while I do remember the short ones. 
 But the point is this: 
 
-> **Think about what you are writing and about the people who will be forced to read it**.
+<blockquote>
+<p>Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.</p>
+<footer>— <cite>John Woods</cite></footer>
+</blockquote>
+
+... because it will, most probably, be you. 
 
 ## Save yourself a trip to the man page
 
@@ -68,6 +73,11 @@ Now, whenever I have to revise my `.gitconfig`, I can clearly see - or at least 
 Don't get me wrong. I am a strong believer in the 80 characters soft limit on line length, but that's what backslashes are for.
 Escaping is inescapable.
 
+<blockquote>
+<p>Any code of your own that you haven't looked at for six or more months, might as well have been written by someone else.</p>
+<footer>— <cite>Eagleson's Law</cite></footer>
+</blockquote>
+
 ## Discover new possibilities
 
 Some (although admittedly not many) switches are only available in the long form. 
@@ -91,5 +101,15 @@ A little more typing now, a lot less typing later.
 
 Laziness is maintained. 
 
+<hr>
 
+I'll leave you with a&nbsp;quote from the&nbsp;author of the&nbsp;<a href="http://www.cc2e.com" 
+target="_blank">Code Complete</a>. The&nbsp;book that made me look very hard at&nbsp;myself 
+and&nbsp;my&nbsp;approach to&nbsp;programming and&nbsp;life&nbsp;in&nbsp;general.      
 
+<blockquote>
+<p>Good code is&nbsp;its&nbsp;own best documentation. As&nbsp;you're about to add a&nbsp;comment,
+ask yourself, "How can I&nbsp;improve the&nbsp;code so&nbsp;that this comment isn't needed?"
+Improve the&nbsp;code and&nbsp;then document it to make it even clearer.</p>
+<footer>— <cite><a href="http://www.stevemcconnell.com/" target="_blank">Steve McConnell</a></cite></footer>
+</blockquote>
