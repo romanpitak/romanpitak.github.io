@@ -20,14 +20,15 @@ Whether a devoted reader or an unlucky colleague (or me) two years from now,
 long switches are like helpful little inline documentation. 
 They make me a bit less pissed at my past self for writing things like this:
   
-{% highlight bash %}
-###################################################
+<pre class="pitak"><code><span class="comment"
+>###################################################
 #     _____    # 
 # ^..^     \9  # WARNING - following source code
 # (oo)_____/   #           may harm your eyes
 #    WW  WW    #
 ###################################################
-{% endhighlight %}
+</span></code></pre>
+
 
 ## Leave better code for "generations" to come
 
@@ -53,22 +54,21 @@ But the point is this:
 
 Consider this piece of code:
 
-{% highlight bash %}
-$ git config --global core.pager "less -FRSX"
-{% endhighlight %}
+<pre class="pitak"><code><span class="user-host">roman@u310 </span><span 
+class="path">~ $ </span><span class="function">git</span> config --global core.pager <span class="string">"less -FRSX"</span></code></pre>
 
 My first reaction was `man ls` and a rewrite to: 
 
-{% highlight bash %}
-$ git config --global core.pager "\
-less \
---quit-if-one-screen \
---RAW-CONTROL-CHARS \
---chop-long-lines \
---no-init"
-{% endhighlight %}
+<pre class="pitak"><code><span class="user-host">roman@u310 </span><span 
+class="path">~ $ </span><span class="function">git</span> config --global core.pager <span 
+class="warning">\</span><span class="string">
+    "less <span class="warning">\</span>
+    --quit-if-one-screen <span class="warning">\</span>
+    --RAW-CONTROL-CHARS <span class="warning">\</span>
+    --chop-long-lines <span class="warning">\</span>
+    --no-init"</span></code></pre>
 
-Now, whenever I have to revise my `.gitconfig`, I can clearly see - or at least I have a faint idea of - what I was trying to achieve.   
+Now, whenever I have to revise my `.gitconfig`, I can clearly see (or at least I have a faint idea of) what I was trying to achieve.   
 
 Don't get me wrong. I am a strong believer in the 80 characters soft limit on line length, but that's what backslashes are for.
 Escaping is inescapable.
@@ -82,12 +82,12 @@ Escaping is inescapable.
 
 Some (although admittedly not many) switches are only available in the long form. 
 
-{% highlight bash %}
-$ alias ls="ls \
---color=always \
---time-style=\"+%Y-%m-%d %H:%M:%S\" \
---human-readable"
-{% endhighlight %}
+<pre class="pitak"><code><span class="user-host">roman@u310 </span><span 
+class="path">~ $ </span><span class="function">alias</span> ls=<span
+class="string">"ls <span class="warning">\</span>
+    --color=always <span class="warning">\</span>
+    --time-style=\"+%Y-%m-%d %H:%M:%S\" <span class="warning">\</span>
+    --human-readable"</span></code></pre>
 
 In the above example, the switches `--color` and `--time-style` are only available in the long form because they are intended to be used in scripts.   
 
@@ -101,7 +101,12 @@ A little more typing now, a lot less typing later.
 
 Laziness is maintained. 
 
-<hr>
+<blockquote>
+<p>Weeks of programming can save you hours of planning.</p>
+<footer>— <cite><small>unknown</small></cite></footer>
+</blockquote>
+
+## Readability first
 
 I'll leave you with a&nbsp;quote from the&nbsp;author of the&nbsp;<a href="http://www.cc2e.com" 
 target="_blank">Code Complete</a>. The&nbsp;book that made me look very hard at&nbsp;myself 
