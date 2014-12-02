@@ -13,8 +13,8 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               $
-tagline:             'code --help'
+title:               Roman Piták
+tagline:             blog
 description:         'A blog of code and the human nature.'
 url:                 http://blog.pitak.net
 baseurl:             ''
