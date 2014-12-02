@@ -9,7 +9,8 @@ perex: |
     Nobody really needs a short answer when looking to understand something.
     When I'm writing a script (or a blog post), chances are somebody is going to (have to) look at it at some point.
     Whether a devoted reader or an unlucky colleague (or me) two years from now, 
-    long switches are like helpful little inline documentation.
+    long switches are like helpful little inline documentation
+    
 ---
 
 Short answer - [Readability](http://en.wikipedia.org/wiki/Readability).
