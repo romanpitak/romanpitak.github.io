@@ -2,24 +2,17 @@
 layout: default
 title: Blog
 ---
-
-<div class="posts">
+<article>
   {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.perex }}<a href="{{ post.url }}">&hellip;read more</a>
-
-  </div>
+  <article>
+      <header>
+          <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+          <time pubdate="pubdate">{{ post.date | date_to_string }}</time>
+      </header>{{ post.perex }}<a href="{{ post.url }}">&hellip;read more</a>
+  </article>
   {% endfor %}
-</div>
 
+<footer>
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
@@ -36,4 +29,5 @@ title: Blog
     <span class="pagination-item newer">Newer</span>
   {% endif %}
 </div>
-
+</footer>
+</article>
