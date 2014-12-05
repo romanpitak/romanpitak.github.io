@@ -9,7 +9,7 @@ perex: |
     I never even noticed them being there until it&nbsp;grew too nasty to look at and&nbsp;I&nbsp;had to have it incinerated and I&nbsp;bought a&nbsp;new&nbsp;one.
     A&nbsp;normal, cheapish, office-grade keyboard. It&nbsp;dawned on&nbsp;me soon after. 
     I'll have to&nbsp;change the&nbsp;volume by&nbsp;clicking on&nbsp;the&nbsp;tray icon and&nbsp;scrolling like a&nbsp;peasant in&nbsp;the&nbsp;middle ages. 
-    I&nbsp;decided to&nbsp;deal with it and&nbsp;soon found a&nbsp;viable solution.
+    I&nbsp;decided to&nbsp;deal with it and&nbsp;soon found a&nbsp;viable solution
     
 ---
 
