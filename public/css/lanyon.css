@@ -88,26 +88,25 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*
- * Masthead
+ * Site header
  *
- * Super small header above the content for site name and short description.
  */
 
-.masthead {
+.wrap > header {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
 }
-.masthead-title {
+.wrap > header h3 {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
 }
-.masthead-title a {
+.wrap > header h3 a {
   color: #505050;
 }
-.masthead-title small {
+.wrap > header h3 small {
   font-size: 75%;
   font-weight: 400;
   color: #c0c0c0;
@@ -115,10 +114,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 48em) {
-  .masthead-title {
+  .wrap > header h3 {
     text-align: center;
   }
-  .masthead-title small {
+  .wrap > header h3 small {
     display: none;
   }
 }
@@ -166,35 +165,37 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
   color: #fff;
 }
-.sidebar-item {
+nav header,
+nav footer {
   padding: 1rem;
 }
-.sidebar-item p:last-child {
+nav header p:last-child,
+nav footer p:last-child {
   margin-bottom: 0;
 }
 
-/* Sidebar nav */
-.sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+nav.sidebar footer {
+  border-top: 1px solid rgba(255,255,255,.1);
 }
-.sidebar-nav-item {
+nav.sidebar a {
   display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
 }
-.sidebar-nav-item.active,
-a.sidebar-nav-item:hover,
-a.sidebar-nav-item:focus {
+nav.sidebar a.active,
+nav.sidebar a:hover,
+nav.sidebar a:focus {
   text-decoration: none;
   background-color: rgba(255,255,255,.1);
   border-color: transparent;
 }
 
 @media (min-width: 48em) {
-  .sidebar-item {
+  nav header,
+  nav footer {
     padding: 1.5rem;
   }
-  .sidebar-nav-item {
+    nav.sidebar a {
     padding-left:  1.5rem;
     padding-right: 1.5rem;
   }
@@ -298,23 +299,23 @@ a.sidebar-nav-item:focus {
  */
 
 .page,
-.post {
+article {
   margin-bottom: 4em;
 }
 
 /* Blog post or page title */
 .page-title,
-.post-title,
-.post-title a {
+article header h1,
+article header h1 a {
   color: #303030;
 }
 .page-title,
-.post-title {
+article header h1 {
   margin-top: 0;
 }
 
 /* Meta data line below post title */
-.post-date {
+article header time {
   display: block;
   margin-top: -.5rem;
   margin-bottom: 1rem;
